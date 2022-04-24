@@ -1,0 +1,633 @@
+/* Google Web Font */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700&display=swap");
+
+* {
+margin: 0;
+padding: 0;
+  /* text-decoration: none; */
+}
+
+/* body */
+body {
+font-family: "Noto Sans KR", sans-serif;
+width: 100%;
+height: 100vh;
+background-color: white;
+}
+/* end body */
+
+/* container - 전체지정 */
+.container {}
+/* end container */
+
+/* nav - 상단 네비 바 */
+.nav {
+width: 100%;
+height: 100px;
+background-color: #000;
+border: 1px solid #000;
+}
+.nav .name {
+width: max-content;
+height: 50px;
+margin-top: 28px;
+margin-left: 20px;
+float: left;
+}
+.nav .name h2 {
+font-weight: bold;
+color: #fff;
+}
+.nav .buger {
+width: 100px;
+height: 50px;
+margin-top: 40px;
+float: right;
+}
+.nav .buger div {
+width: 50px;
+height: 1px;
+margin-bottom: 7px;
+border: 2px solid #fff;
+border-radius: 5px;
+background-color: #fff;
+}
+
+/* end nav */
+
+/* main */
+.main {
+width: 100%;
+height: 2000px;
+margin-top: 70px;
+text-align: center;
+  /* border: 1px solid #000; */
+}
+.main .my_about {
+width: 100%;
+height: 800px;
+  /* border: 1px solid #000; */
+}
+.main .my_about img {
+margin-top: 80px;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+}
+.main .my_about h1 {
+margin-top: 80px;
+}
+.main .my_about p {
+font-weight: bold;
+margin-top: 50px;
+}
+.main .my_about2 {
+width: 100%;
+height: 600px;
+text-align: center;
+margin-top: 150px;
+margin-bottom: 150px;
+  /* border: 1px solid #000; */
+}
+.main .my_about2 .my_about2_1 {}
+.main .my_about2 .my_about2_1 img {
+width: 380x;
+height: 380px;
+margin-left: 80px;
+margin-top: 50px;
+border-radius: 10px;
+}
+.main .my_about2 .my_about2_2 {
+margin-top: 40px;
+}
+.main .my_about2 .my_about2_2 h2 span {
+color: blue;
+}
+.main .my_about2 .my_about2_1,
+.main .my_about2 .my_about2_2 {
+display: inline-block;
+width: 400px;
+vertical-align: top;
+text-align: left;
+}
+.info {
+width: 100%;
+height: 800px;
+text-align: center;
+margin-top: 250px;
+}
+.info h1 {
+margin-bottom: 50px;
+}
+.info .info_text {
+width: 600px;
+height: 250px;
+margin: auto;
+text-align: left;
+}
+.info .info_text p {
+}
+
+.info .info_skill_bar {
+width: 100%;
+height: 600px;
+text-align: center;
+margin-top: 210px;
+margin-bottom: 50px;
+  /* border: 1px solid #000; */
+}
+.info .info_skill_bar h1 {
+text-align: center;
+}
+.info .info_skill_bar .info_skill_bar_box {
+    /* border: 1px solid #000; */
+}
+.info .info_skill_bar .info_skill_bar_box .info_skill_bar_1,
+.info .info_skill_bar .info_skill_bar_box .info_skill_bar_2,
+.info .info_skill_bar .info_skill_bar_box .info_skill_bar_3,
+.info .info_skill_bar .info_skill_bar_box .info_skill_bar_4,
+.info .info_skill_bar .info_skill_bar_box .info_skill_bar_5 {
+    width: 350px;
+    height: 45px;
+    margin: 27px auto;
+    padding: 1px;
+    border-radius: 20px;
+    background: #efeee9;
+    border: 1px solid #fff;
+}
+.info .info_skill_bar .info_skill_bar_box .info_skill_bar_1 .color {
+    width: 290px;
+    height: 38px;
+    margin-left: 2px;
+    margin-top: 1px;
+    padding-top: 5px;
+    background: #e54c20;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+}
+.info .info_skill_bar .info_skill_bar_box .info_skill_bar_2 .color {
+    width: 280px;
+    height: 38px;
+    margin-left: 2px;
+    margin-top: 1px;
+    padding-top: 5px;
+    background: #0086e5;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+}
+.info .info_skill_bar .info_skill_bar_box .info_skill_bar_3 .color {
+    width: 210px;
+    height: 38px;
+    margin-left: 2px;
+    margin-top: 1px;
+    padding-top: 5px;
+    background: #fac552;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+}
+.info .info_skill_bar .info_skill_bar_box .info_skill_bar_4 .color {
+    width: 190px;
+    height: 38px;
+    margin-left: 2px;
+    margin-top: 1px;
+    padding-top: 5px;
+    background: #61dafb;
+    border-radius: 20px;
+}
+.info .info_skill_bar .info_skill_bar_box .info_skill_bar_5 .color {
+    width: 190px;
+    height: 38px;
+    margin-left: 2px;
+    margin-top: 1px;
+    padding-top: 5px;
+    background: #121417;
+    border-radius: 20px;
+    color: #fff;
+}
+.info .info_skill_bar .info_skill_bar_box .info_skill_bar_5 .color span {
+    color: #fff;
+}
+.info_skill_bar_main {
+    width: 100%;
+    height: 400px;
+}
+.info .info_skill_bar .info_skill_bar_main .info_skill_bar_text_box,
+.info .info_skill_bar .info_skill_bar_main .info_skill_bar_box {
+    display: inline-block;
+    width: 600px;
+    height: 400px;
+    vertical-align: top;
+    text-align: left;
+}
+.info .info_skill_bar .info_skill_bar_main .info_skill_bar_box {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    /* border: 1px solid #000; */
+}
+.info .info_skill_bar .info_skill_bar_main .info_skill_bar_text_box {
+    width: 400px;
+    height: 400px;
+    /* border: 1px solid #000; */
+}
+.info .info_skill_bar .info_skill_bar_main .info_skill_bar_text_box .info_skill_bar_text1,
+.info .info_skill_bar .info_skill_bar_main .info_skill_bar_text_box .info_skill_bar_text2,
+.info .info_skill_bar .info_skill_bar_main .info_skill_bar_text_box .info_skill_bar_text3,
+.info .info_skill_bar .info_skill_bar_main .info_skill_bar_text_box .info_skill_bar_text4,
+.info .info_skill_bar .info_skill_bar_main .info_skill_bar_text_box .info_skill_bar_text5 {
+    width: 400px;
+    height: 65px;
+    margin: 10px auto;
+    padding: 0;
+    border-radius: 10px;
+    background: #efeee9;
+    border: 1px solid #fff;
+}
+
+.info .info_skill_bar .info_skill_bar_main .info_skill_bar_text_box .info_skill_bar_text1,
+.info .info_skill_bar .info_skill_bar_main .info_skill_bar_text_box .info_skill_bar_text3,
+.info .info_skill_bar .info_skill_bar_main .info_skill_bar_text_box .info_skill_bar_text4,
+.info .info_skill_bar .info_skill_bar_main .info_skill_bar_text_box .info_skill_bar_text5 {
+    
+}
+/* idea */
+.idea {
+    width: 100%;
+    height: 1100px;
+    text-align: center;
+    margin-top: 750px;
+    padding: 3px;
+    /* border: 1px solid #000; */
+}
+.idea .idea_1 {
+    margin: auto;
+    width: 800px;
+    height: 100px;
+    /* border: 1px solid #000; */
+}
+.idea .idea_1 h1 {
+    color: #000;
+    font-size: xxx-large;
+}
+.idea .idea_2 {
+    margin: 5px auto;
+    width: 800px;
+    height: 100px;
+    /* border: 1px solid #000; */
+}
+.idea .idea_2 h2 {
+    font-size: xx-large;
+    color: #121417;
+}
+.idea .idea_3 {
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    /* border: 1px solid #000; */
+}
+.idea .idea_3 .idea_3-1 {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-radius: 1px;
+    /* border: 1px solid #000; */
+}
+.idea .idea_3 .idea_3-1 img {
+    width: 230px;
+    height: 230px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 5px solid #fec332;
+}
+.idea .idea_3 .idea_3-1 h2 {
+    padding-top: 30px;
+}
+.idea .idea_3 .idea_3-2 {
+    width: 100px;
+    height: 400px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+.idea .idea_3 .idea_3-2 img{
+    width: 90px;
+    height: 90px;
+    margin-top: 170px;
+    /* border: 1px solid #000; */
+}
+.idea .idea_3 .idea_3-3 {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+.idea .idea_3 .idea_3-3 img {
+    width: 230px;
+    height: 230px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 5px solid blue;
+}
+.idea .idea_3 .idea_3-3 h2 {
+    padding-top: 30px;
+}
+.idea .idea_4 {
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+.idea .idea_4 .idea_4_box{
+    width: 230px;
+    height: 80px;
+    margin: auto;
+    background: #93c9b6;
+    border-radius: 10px;
+    /* border: 1px solid #fff; */
+}
+.idea .idea_4 .idea_4_box h2 {
+    padding-top: 4px;
+    color:#fff;
+    text-align: center;
+}
+.idea .idea_5 {
+    width: 800px;
+    height: 100px;
+    padding-top: 30px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+.idea .idea_5 h2 {
+    padding-top: 20px;
+    text-decoration: none;
+}
+.idea .idea_6 {
+    width: 800px;
+    height: 100px;
+    padding-top: 30px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+.idea .idea_6 button {
+    padding: 2px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #000;
+    border: 3px solid #000;
+}
+.idea .idea_6 button h2 {
+    width: 100px;
+    height: 40px;
+    padding: 3px;
+    color: #fff;
+    margin: auto;
+}
+/* End idea */
+
+/* project */
+.project {
+    width: 100%;
+    height: 1300px;
+    text-align: center;
+    padding: 3px;
+    /* border: 1px solid #000; */
+}
+.project .project_title {
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    /* border: 1px solid #000; */
+}
+.project .project_title h1 {
+    margin-top: 30px;
+}
+.project .project_title2 {
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    /* border: 1px solid #000; */
+}
+
+.project .project_title2 h2 {
+    margin-top: 30px;
+}
+.project .project_main {
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid #000; */
+}
+.project .project_main .project_main1 {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #000; */
+}
+.project .project_main .project_main2 {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #000; */
+}
+
+.project .project_main .project_main1 .project_box1,
+.project .project_main .project_main1 .project_box2,
+.project .project_main .project_main1 .project_box3,
+.project .project_main .project_main2  .project_box4,
+.project .project_main .project_main2  .project_box5,
+.project .project_main .project_main2  .project_box6 {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    background: gray;
+    border: 1px solid gray;
+}
+.project .project_main .project_box1 .box_img,
+.project .project_main .project_box2 .box_img,
+.project .project_main .project_box3 .box_img,
+.project .project_main .project_box4 .box_img,
+.project .project_main .project_box5 .box_img,
+.project .project_main .project_box6 .box_img {
+    width: 280px;
+    height: 250px;
+    margin: 10px auto;
+    padding: 0;
+    border-radius: 20px;
+    background: white;
+    border: 1px solid gray;
+}
+.project .project_main .project_box1 .box_img img,
+.project .project_main .project_box2 .box_img img,
+.project .project_main .project_box3 .box_img img,
+.project .project_main .project_box4 .box_img img,
+.project .project_main .project_box5 .box_img img,
+.project .project_main .project_box6 .box_img img {
+    width: 280px;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.project .project_main .project_box1 .box_text,
+.project .project_main .project_box2 .box_text,
+.project .project_main .project_box3 .box_text,
+.project .project_main .project_box4 .box_text,
+.project .project_main .project_box5 .box_text,
+.project .project_main .project_box6 .box_text {
+    width: 280px;
+    height: 100px;
+    margin: 10px auto;
+    padding-top: 20px;
+    border-radius: 20px;
+    background: white;
+    border: 1px solid gray;
+}
+.project .project_main .project_box1 .box_text,
+.project .project_main .project_box2 .box_text,
+.project .project_main .project_box3 .box_text,
+.project .project_main .project_box4 .box_text,
+.project .project_main .project_box5 .box_text,
+.project .project_main .project_box6 .box_text a {
+    margin: auto;
+}
+.project .project_main .project_box1 .box_text,
+.project .project_main .project_box2 .box_text,
+.project .project_main .project_box3 .box_text,
+.project .project_main .project_box4 .box_text,
+.project .project_main .project_box5 .box_text,
+.project .project_main .project_box6 .box_text, a {
+    color: #000;
+    text-decoration-style: double;
+    text-decoration-color: #0086e5;
+}
+.project .project_main .project_box6 .box_text a > h2 {
+
+}
+/* end project */
+
+/* end main */
+
+/* footer */
+.main .footer {
+width: 100%;
+height: 200px;
+padding-top: 35px;
+display: inline-block;
+background: #000;
+/* border: 1px solid #000; */
+}
+
+.main .footer .footer_textbox {
+    width: 400px;
+    height: 120px;
+    float: left;
+    padding-top: 40px;
+/*     border: 1px solid #000; */
+}
+.main .footer .sns {
+    width: 450px;
+    height: 150px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    /* border: 1px solid #000; */
+}
+
+.main .footer .footer_textbox h2 {
+    color: white;
+}
+.main .footer .sns .instargram {
+    width: 100px;
+    height: 80px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+.main .footer .sns .instargram .icon {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+.main .footer .sns .instargram p {
+    width: 70px;
+    height: 30px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+.main .footer .sns .github {
+    width: 100px;
+    height: 80px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+.main .footer .sns .github .icon {
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    background: black;
+    /* border: 1px solid #000; */
+}
+.main .footer .sns .github p {
+    width: 70px;
+    height: 30px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+.main .footer .sns .mail {
+    width: 100px;
+    height: 80px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+.main .footer .sns .mail .icon {
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    background: black;
+    /* border: 1px solid #000; */
+}
+.main .footer .sns .mail p {
+    width: 70px;
+    height: 30px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+.main .footer .sns  .instargram a {
+    color: #fff;
+    text-decoration: none;
+}
+.main .footer .sns  .github a {
+    color: #fff;
+    text-decoration: none;
+}
+.main .footer .sns  .mail a {
+    color: #fff;
+    text-decoration: none;
+}
+.main .footer .sns  .instargram .icon img {
+    width: 40px;
+    height: 40px;
+}
+.main .footer .sns  .github .icon img {
+    width: 40px;
+    height: 40px;
+}
+.main .footer .sns  .mail .icon img {
+    width: 40px;
+    height: 40px;
+}
+
+/* end footer */
